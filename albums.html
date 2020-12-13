@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/531f7c49c9.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" href="albums.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Albums</h1>
+        <nav class="navbar">
+            <div class="navbrand">
+                <a href="./index.html" class="brand"><img src="logo.PNG" alt="logo de django"></a>
+                <div class="burger" id="burger">
+                    <span class="burger-open">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+                            <g fill="#252a32" fill-rule="evenodd">
+                                <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+                            </g>
+                        </svg>
+                    </span>
+                    <span class="burger-close">
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                            <path style="background-color: wheat;" fill="#252a32" fill-rule="evenodd"
+                                d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <ul class="menu" id="menu">
+                <li class="menu-item"><a href="index.html" class="menu-link">Accueil</a></li>
+                <li class="menu-item"><a href="tournee.html" class="menu-link">Tournée</a></li>
+                <li class="menu-item"><a href="albums.html" class="menu-link active">Écouter les albums</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <h2>Écouter les albums</h2>
+        <div class="line">
+            <div class="card">
+                <a href="https://youtu.be/flh-5XZX4VI?t=21"><img src="pochette.png" alt="Pochette du nouvel album Chillex" style="height: 721px;"></a>
+                <p class="title">Chillex</p>
+                <p class="para">Dans le même style que flex, Django se réinvente en sortant un son avec l'instrumental
+                    créé à partir de la musique de mario. Ce nouvel album sortira bientôt sur toutes les plateformes le
+                    <span>7 Janvier 2021</span></p>
+            </div>
+            <div class="card">
+                <iframe width="100%" height="721" src="https://www.youtube.com/embed/TimxqtdC_I8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="title">S/O le Flem</p>
+                <p class="para">Django renouvelle dans ce morceau une de ses collaborations passées, plus précisément
+                    avec Freeze Corleone.</p>
+            </div>
+        </div>
+        <div class="line">
+            <div class="card">
+                <iframe width="100%" height="720" src="https://www.youtube.com/embed/YfRqXLwLzB0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="title">Flex</p>
+                <p class="para">Instrumental créé avec la musique et prod de Packman, créé en 2017. Cette musique
+                    n'était à la base pas prévu mais contre tout à coup, Django sort cette merveille !</p>
+            </div>
+            <div class="card">
+                <iframe width="100%" height="720" src="https://www.youtube.com/embed/lSZqC-Nezlw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="title">Fichu</p>
+                <p class="para">Bénéficiant d'un street-clip, “Fichu” est le troisième morceau clippé par Django, et le
+                    cinquième disponible sur le web au moment de sa sortie.
+                </p>
+            </div>
+        </div>
+        <div class="flex">
+            <a class="btn" href="tournee.html">
+                <p>Tournée</p>
+            </a>
+            <a class="btn" href="albums.html">
+                <p>Écouter les albums</p>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <div class="gauche">
+            <div class="line"><i class="fab fa-instagram"></i>
+                <a href="">django_dkz_officiel</a></div>
+            <div class="line"> <i class="fab fa-facebook-square"></i>
+                <a href="">DjangoDkZ</a></div>
+            <div class="line">
+                <i class="fab fa-twitter"></i>
+                <a href="">Django_DKZ</a></div>
+        </div>
+        <div class="droite">
+            <div class="link">
+                <div class="line"><a href="tournee.html">Tournée</a></div>
+                <div class="line"><a href="albums.html">Écouter les albums</a></div>
+                <div class="line"><a class="last" href="albums.html">
+                        <p>Acheter les Albums</p>
+                    </a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

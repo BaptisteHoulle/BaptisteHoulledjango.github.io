@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/531f7c49c9.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Django</h1>
+        <nav class="navbar">
+            <div class="navbrand">
+                <a href="./index.html" class="brand"><img src="logo.PNG" alt="logo de django"></a>
+                <div class="burger" id="burger">
+                    <span class="burger-open">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+                            <g fill="#252a32" fill-rule="evenodd">
+                                <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+                            </g>
+                        </svg>
+                    </span>
+                    <span class="burger-close">
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                            <path style="background-color: wheat;" fill="#252a32" fill-rule="evenodd"
+                                d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <ul class="menu" id="menu">
+                <li class="menu-item"><a href="index.html" class="menu-link active">Accueil</a></li>
+                <li class="menu-item"><a href="tournee.html" class="menu-link">Tournée</a></li>
+                <li class="menu-item"><a href="albums.html" class="menu-link">Écouter les albums</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <h2>Présentation</h2>
+        <img class="django4" src="django4.jpg" alt="Image de django">
+        <p class="text">
+            <span>Django,</span> anciennement <span>Django DKZ</span> ou <span>Apoklyps,</span> est un rappeur parisien.
+
+            Après deux premiers EP’s dévoilés en 2017 puis 2018 (Anthracite et Tue-moi mon amour s’il te plaît), il
+            revient le 6 Novembre 2020 avec son nouveau projet, S/O Le Flem. Un EP fortement marqué par sa récente
+            proximité avec le collectif 667, qui marque un nouveau tournant dans sa carrière.
+        </p>
+        <div class="flex">
+            <a class="btn" href="tournee.html">
+                <p>Tournée</p>
+            </a>
+            <a class="btn" href="albums.html">
+                <p>Écouter les albums</p>
+            </a>
+        </div>
+    </div>
+    <footer>
+        <div class="gauche">
+            <div class="line"><i class="fab fa-instagram"></i>
+                <a href="">django_dkz_officiel</a></div>
+            <div class="line"> <i class="fab fa-facebook-square"></i>
+                <a href="">DjangoDkZ</a></div>
+            <div class="line">
+                <i class="fab fa-twitter"></i>
+                <a href="">Django_DKZ</a></div>
+        </div>
+        <div class="droite">
+            <div class="link">
+                <div class="line"><a href="tournee.html">Tournée</a></div>
+                <div class="line"><a href="albums.html">Écouter les albums</a></div>
+                <div class="line"><a class="last" href="albums.html">
+                        <p>Acheter les Albums</p>
+                    </a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>

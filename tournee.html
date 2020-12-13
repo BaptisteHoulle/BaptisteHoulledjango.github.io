@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/531f7c49c9.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+    <script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+    <link rel="stylesheet" href="tournee.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Showcase & concert</h1>
+        <nav class="navbar">
+            <div class="navbrand">
+                <a href="./index.html" class="brand"><img src="logo.PNG" alt="logo de django"></a>
+                <div class="burger" id="burger">
+                    <span class="burger-open">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="16">
+                            <g fill="#252a32" fill-rule="evenodd">
+                                <path d="M0 0h24v2H0zM0 7h24v2H0zM0 14h24v2H0z" />
+                            </g>
+                        </svg>
+                    </span>
+                    <span class="burger-close">
+                        <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="20" height="20">
+                            <path style="background-color: wheat;" fill="#252a32" fill-rule="evenodd"
+                                d="M17.778.808l1.414 1.414L11.414 10l7.778 7.778-1.414 1.414L10 11.414l-7.778 7.778-1.414-1.414L8.586 10 .808 2.222 2.222.808 10 8.586 17.778.808z" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+            <ul class="menu" id="menu">
+                <li class="menu-item"><a href="index.html" class="menu-link">Accueil</a></li>
+                <li class="menu-item"><a href="tournee.html" class="menu-link active">Tournée</a></li>
+                <li class="menu-item"><a href="albums.html" class="menu-link">Écouter les albums</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <h2>Tournée</h2>
+        <div class="card">
+            <div class="link">
+                <img src="bercy.jpg" alt="photo de la salle de Bercy">
+            </div>
+            <div class="right">
+                <p class="title">Bercy, <span>10 décembre 2020</span></p>
+                <p class="para">Compte tenu de l’évolution de la situation sanitaire et des dernières mesures
+                    gouvernementales prises pour endiguer la propagation du Coronavirus/Covid-19, nous sommes
+                    malheureusement contraints d’annuler le concert de django prévu initialement le 10 décembre 2020 et
+                    reporté au 9 décembre 2020 à l’Accor Arena à Paris.</p>
+                <a href="tournee.html"><p>En savoir plus</p></a>
+            </div>
+        </div>
+        <div class="card reverse">
+            <div class="link">
+                <img src="le-zenith-europe-12733-600-600-F.jpg"
+                    alt="Photo de la salle des zénith de Strasbourg">
+            </div>
+            <div class="right">
+                <p class="title">Zénith de Strasbourg, <span>27 décembre 2020</span></p>
+                <p class="para">Prolongez les fêtes en retrouvant Django sur scène après noël, notamment au Zénith de Strasbourg, le 27 décembre 2020 !</p>
+                <a href="tournee.html"><p>En savoir plus</p></a>
+            </div>
+        </div>
+        <div class="card">
+            <div class="link">
+                <img src="galaxie_amneville.jpg" alt="Phopto du galaxie d'Améniville">
+            </div>
+            <div class="right">
+                <p class="title">Galaxie d'Amnéville, <span>3 janvier 2021</span></p>
+                <p class="para">Prolongez les fêtes en retrouvant Django sur scène après 2020, notamment au Galaxie de Amnéville, le 3 janvier 2021 !</p>
+                <a href="tournee.html"><p>En savoir plus</p></a>
+            </div>
+        </div>
+        <div class="card reverse">
+            <div class="link">
+                <img src="arsenal.jpg" alt="Photo de l'Arsenal de Metz">
+            </div>
+            <div class="right">
+                <p class="title">Arsenal de Metz, <span>7 janvier 2021</span></p>
+                <p class="para">Dotée de 1354 places, l'emblématique Grande Salle de l'Arsenal figure dans le palmarès des plus prestigieuses salles d'Europe, grâce à une acoustique exceptionnelle qui en fait l'un des lieux d'enregistrements privilégiés.
+                    Django sera votre meilleur souvenir de 2021 !</p>
+                <a href="tournee.html"><p>En savoir plus</p></a>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="gauche">
+            <div class="line"><i class="fab fa-instagram"></i>
+                <a href="">django_dkz_officiel</a></div>
+            <div class="line"> <i class="fab fa-facebook-square"></i>
+                <a href="">DjangoDkZ</a></div>
+            <div class="line">
+                <i class="fab fa-twitter"></i>
+                <a href="">Django_DKZ</a></div>
+        </div>
+        <div class="droite">
+            <div class="link">
+                <div class="line"><a href="tournee.html">Tournée</a></div>
+                <div class="line"><a href="albums.html">Écouter les albums</a></div>
+                <div class="line"><a class="last" href="albums.html">
+                        <p>Acheter les Albums</p>
+                    </a></div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
